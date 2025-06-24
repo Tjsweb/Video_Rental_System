@@ -12,7 +12,7 @@ import java.util.function.Function;
 @Component
 public class JwtUtil {
 
-  private static final String SECRET_KEY = "vrs_advanced_CRIO";
+  private static final String SECRET_KEY = "vrs_advanced_system_CRIO#123456789";
   private static final long EXPIRATION_TIME = 1000 * 60 * 60 * 10;
 
   private Key getSignInKey() {
